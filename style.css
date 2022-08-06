@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* full */
+body > div.container{
+    /* background-color: violet; */
+    /* margin-top: 70px;
+    margin-left: 100px; */
+}
+
+/* SECTION 1 */
+body > div.container > section[aria-label="navbar"]{
+    /* background-color: aqua; */
+    height: 50px;
+    
+    margin: 70px 100px 0px;
+
+}
+body > div.container > section[aria-label="navbar"] > nav.navbar-container{
+    /* background-color: peru; */
+    display: flex;
+}
+
+/* NAVBAR->NAVBAR-CONTAINER */
+/* DIV CHILD 1 */
+body > div.container > section[aria-label="navbar"] > nav.navbar-container div:nth-child(1){
+    /* background-color: darkgrey; */
+    flex-grow: 3;
+    height: 50px;
+}
+body > div.container > section[aria-label="navbar"] > nav.navbar-container div:nth-child(1) img{
+    height: 40px;
+    width: 100px;
+}
+
+/* NAVBAR->NAVBAR-CONTAINER */
+/* DIV CHILD 2 */
+body > div.container > section[aria-label="navbar"] > nav.navbar-container div.grow-list{
+    /* background-color: rgb(226, 104, 133); */
+    flex-grow: 9;
+    height: 50px;
+   
+}
+body > div.container > section[aria-label="navbar"] > nav.navbar-container div.grow-list ul.list{
+    display: flex;
+    padding-top: 10px;
+}
+body > div.container > section[aria-label="navbar"] > nav.navbar-container div.grow-list ul.list li.list-item{
+    flex-grow: 1;
+    font-size: 17px; 
+    color: rgb(165, 162, 162);
+    font-family: "Poppins";
+}
+body > div.container > section[aria-label="navbar"] > nav.navbar-container div.grow-list ul.list li.list-item:hover{
+    flex-grow: 1;
+    font-size: 17px; 
+    color: rgb(6, 6, 6);
+    font-family: "Poppins";
+}
+body > div.container > section[aria-label="navbar"] > nav.navbar-container div.grow-list ul.list li.list-item::marker{
+    color: transparent;
+}
+body > div.container > section[aria-label="navbar"] > nav.navbar-container div.grow-list ul.list li.list-item::marker:hover{
+    color: transparent;
+}
+
+/* NAVBAR->NAVBAR-CONTAINER */
+/* DIV CHILD 3 */
+body > div.container > section[aria-label="navbar"] > nav.navbar-container div.button-group{
+    /* background-color: indigo; */
+    flex-grow: 17;
+    height: 50px;
+    text-align: end;
+}
+body > div.container > section[aria-label="navbar"] > nav.navbar-container div.button-group button.nav-button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Poppins";
+    color: rgb(247, 247, 247);
+    background-color: #5A20CB;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+/* SECTION 2 */
+body > div.container > section[aria-label="banner"]{
+    /* background-color: aquamarine; */
+    margin-top: 50px;
+}
+body > div.container > section[aria-label="banner"] div.banner-container{
+    display: flex;
+    /* background-color: rgb(142, 27, 27); */
+}
+
+/* BANNER->BANNER-CONTAINER */
+/* LEFT */
+body > div.container > section[aria-label="banner"] div.banner-container div:nth-child(1){
+    /* background-color: coral; */
+    margin-left: 100px;
+    /* flex-grow: 5; */
+}
+body > div.container > section[aria-label="banner"] div.banner-container div:nth-child(1) h1.heading-text{
+     color: #3d374b;
+     /* background-color: crimson; */
+     font-size: 70px;
+     height: 350px;
+     width: 100%;
+     padding-left: 2px;
+     padding-top: 80px;
+     font-family: "Poppins";
+     font-weight: 600;
+     letter-spacing: -0.5px;
+     line-height: 85px;
+}
+body > div.container > section[aria-label="banner"] div.banner-container div:nth-child(1) h1.heading-text span{
+    color: #8548a0;
+    font-family: "Poppins";
+}
+body > div.container > section[aria-label="banner"] div.banner-container div:nth-child(1) p.description{
+    color: lightslategray;
+    width: 380px;
+    font-family: "Poppins";
+    margin-top: 10px;
+}
+body > div.container > section[aria-label="banner"] div.banner-container div:nth-child(1) button.nav-button.btn{
+    position: relative;
+    top: 70px;
+    height: 60px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Poppins";
+    color: rgb(247, 247, 247);
+    background-color: #5A20CB;
+    opacity: 0.8;
+}
+
+/* BANNER->BANNER-CONTAINER */
+/* RIGHT */
+body > div.container > section[aria-label="banner"] div.banner-container div:nth-child(2) div{
+    background-color: aqua;
+}
+/* body > div.container > section[aria-label="banner"] div.banner-container div:nth-child(2) div img{
+    height: 50px;
+    width: 50px;
+} */
+
+body > div.container > section[aria-label="banner"]  div.banner-container div:nth-child(2) > img{
+    height: 660px;
+    width: 1090px;
+}
+
